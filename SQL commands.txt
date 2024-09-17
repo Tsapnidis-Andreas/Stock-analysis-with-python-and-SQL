@@ -1,0 +1,12 @@
+--TO CREATE THE TABLE 
+CREATE TABLE stock_data (stock_ticker varchar(4) PRIMARY KEY  ,current_ratio float ,quick_ratio float
+,gross_profit_margin float ,asset_turnover float ,debt_to_equity float ,PE float ,growth_rate float)
+
+--TO VIEW ALL AVAILABLE DATA
+SELECT * FROM stock_data
+
+--TO VIEW THE COMPANIES WITH A P/E HIGHER THAN 25
+SELECT * FROM stock_data WHERE PE>25
+
+--TO VIEW THE COMPANIES   WITH A GROWTH RATE HIGHER THAN THE AVERAGE GROWTH RATE OF ALL THE COMPANIES IN THE DATABASE
+SELECT * FROM stock_data WHERE growth_rate>(SELECT AVG(growth_rate) FROM stock_data)
