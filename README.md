@@ -20,7 +20,7 @@ SQL <br>
 # Fundamental Analysis
 ## How to use
 Create a Database accessible with SQL code<br>
-Create a table as described here<br>
+Create a table as described here: https://github.com/Tsapnidis-Andreas/Stock-analysis-with-python-and-SQL/tree/main/SQL commands.txt<br>
 Install the Python libraries mentioned above<br>
 Initialize the variable ‘stock_name’ with the ticker symbol of the company<br>
 Initialize the variable ‘path’ with the directory where the .xlsx file will be saved<br>
