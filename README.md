@@ -30,7 +30,6 @@ Run the code<br>
 
 ## How it works
 ### The code entails:
-The code entails
 Downloading the company’s balance sheet and income statement via the library yfinance<br>
 Using data pulled from  the financial statements to calculate the following:<br>
 current ratio /quick ratio /gross profit margin/ asset turnover ratio/debt to equity<br>
