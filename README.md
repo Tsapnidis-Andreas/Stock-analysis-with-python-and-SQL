@@ -35,7 +35,7 @@ Using data pulled from  the financial statements to calculate the following:<br>
 current ratio /quick ratio /gross profit margin/ asset turnover ratio/debt to equity<br>
 P/E ratio/growth rate<br>
 Saving all the relevant data in an .xlsx file<br>
-Storing the data in the database where they are easily accessible with SQL commands for<br> further analysis<br>
+Storing the data in the database where they are easily accessible with SQL commands for further analysis<br>
 ## Example
 ![Screenshot of the Table](https://github.com/user-attachments/assets/5d2e6774-20e3-4224-a120-f0170f6ffe07)
 
@@ -44,8 +44,6 @@ Storing the data in the database where they are easily accessible with SQL comma
 # Market Performance Analysis
 
 ## How to use
-Create a Database accessible with SQL code<br>
-Create a table as described here<br>
 Install the Python libraries mentioned above<br>
 Initialize the variable ‘stock_name’ with the ticker symbol of the company<br>
 Initialize the variable ‘path’ with the directory where the .xlsx file will be saved<br>
