@@ -83,7 +83,7 @@ def saving(df):
     writer.close()
 
 def saving_SQL(stock_name,current_ratio, quick_ratio, gross_profit_ratio, asset_turnover_ratio, debt_to_equity, pe, growth_rate):
-    conn=pyodbc.connect('Driver={SQL Server};' 'Server=LAPTOP-A4REIRQU;' 'Database=practice;' 'Trusted_connection=yes')
+    conn=pyodbc.connect('Driver={SQL Server};' 'Server=LAPTOP;' 'Database=practice;' 'Trusted_connection=yes')
     conn.execute('INSERT INTO stock_data (stock_ticker,current_ratio,quick_ratio,gross_profit_margin,asset_turnover,debt_to_equity,PE,growth_rate) VALUES(?,?,?,?,?,?,?,?)',(stock_name,current_ratio, quick_ratio, gross_profit_ratio, asset_turnover_ratio, debt_to_equity, pe, growth_rate))
     conn.commit()
     conn.close()
